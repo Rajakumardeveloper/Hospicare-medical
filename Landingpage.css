@@ -1,0 +1,183 @@
+@font-face{
+  font-family:banner;
+  src:url(/Font/banner.ttf);
+}
+@font-face{
+  font-family:call;
+  src:url(/Font/call.ttf);
+}
+html,body{
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("/asstes/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+
+.hero{
+  height: 100vh;
+  width: 100%; 
+  
+  
+  
+}
+.navbar{
+  height: 5rem;
+  max-width: 100%;
+  background-color: #74D4D3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  width: 20%;
+  height: 3.8rem;
+  margin-left: 20px;
+  padding: 4px;
+  background-color:rgba(200,230,202,255);
+}
+.navbar .logo img{
+  height: 100%;
+  width: 100%;
+  
+}
+.navbar .call{
+  width: 160px;
+  height:2.5rem;
+  background-color: rgba(200,230,202,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  padding:4px 7px;
+}
+.navbar .call a{
+  color: rgba(0,151,136,255);
+  font-size: 18px;
+  font-family: call;
+  text-decoration: none;
+}
+.banner{
+  max-width:100%;
+  height: 60vh;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+}
+.banner h1{
+  font-size: 60px;
+  color:rgba(0,151,136,255) ;
+  font-family: banner;
+  
+}
+.banner h2{
+  color:#4CB050;
+  font-family:call;
+  letter-spacing: 3px;
+  font-size: 37px;
+  margin-top: 0.8rem;
+  
+}
+.banner p{
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.banner h3{
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.banner button{
+  padding: 10px 30px;
+  background-color:rgba(0,151,136,255) ;
+  outline: none;
+  border-radius: 6px;
+  border: 0;
+  margin-top: 3rem;
+  transition: 0.3s ease;
+}
+.banner .learn {
+  margin-top: 10px;
+  
+}
+.banner .learn a{
+  color:purple;
+  
+}
+.banner button:hover{
+  padding: 10px 32px;
+  box-shadow: 5px 5px 10px hsl(159.3,24.6%,41.2%);
+}
+.banner button a{
+  text-decoration: none;
+  font-family: banner;
+ font-size: 20px;
+  color: rgba(200,230,202,255);
+}
+
+@media only screen and (max-width: 600px) {
+ .navbar .logo {
+  width: 40%;
+  height: 3.5rem;
+  margin-left: 15px;
+  background-color:rgba(200,230,202,255);
+  padding: 4px;
+}
+.navbar .logo img{
+  width: 100%;
+  height: 100%;
+  
+}
+  .navbar .call{
+  width: 160px;
+  height:2.5rem;
+  background-color: rgba(200,230,202,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+   .banner {
+     margin-top: 120px;
+   
+   }
+    .banner h1{
+  font-size: 40px;
+  color:rgba(0,151,136,255) ;
+  font-family: banner;
+}
+.banner h2{
+  color:#4CB050;
+  font-family:call;
+  letter-spacing: 3px;
+  font-size: 30px;
+  margin-top: 0.8rem;
+  
+}
+.banner h3{
+  margin-top: 25px;
+}
+.banner button{
+  padding: 9px 30px;
+  background-color:rgba(0,151,136,255) ;
+  outline: none;
+  border-radius: 6px;
+  border: 0;
+  margin-top: 3.5rem;
+  
+  transition: 0.3s ease-in;
+}
+.banner button:hover{
+  padding: 9px 31px;
+  box-shadow: 5px 5px 10px hsl(159.3,24.6%,41.2%);
+}
+.banner button a{
+  text-decoration: none;
+  font-family: banner;
+ font-size: 20px;
+  color: rgba(200,230,202,255);
+}
+}
+

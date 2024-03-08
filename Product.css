@@ -1,0 +1,200 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      .main{
+        max-width: 100vw;
+       height:auto;
+      }
+      .main .hero{
+        margin-top: 2rem;
+      }
+      
+      .main .navbar{
+  height: 5rem;
+  max-width: 100%;
+  background-color:black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  width: 20%;
+  height: 3.8rem;
+  margin-left: 20px;
+  padding: 4px;
+  background-color: white;
+}
+.navbar .logo img{
+  height: 100%;
+  width: 100%;
+  
+}
+      .navbar input{
+        padding: 10px 10px;
+        width: 300px;
+        margin-right: 40px;
+        outline: none;
+      }
+      ::placeholder{
+        color: black;
+        margin-left: 2px;
+        font-size: 14px;
+       font-family: "Roboto", sans-serif;
+      } 
+      .hero{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .product{
+        width:339.9px;
+        height: 380px;
+        border: 1px solid grey;
+        
+       
+      }
+
+
+      .product img{
+        width:70%;
+        height:60%;
+        margin-top: 7px;
+       
+      }
+      .product .info{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+      }
+     .product h3{
+       margin-top: 20px;
+       width:auto;
+       font-size: 25px;
+       letter-spacing: 1px;
+       font-family: "Candal", sans-serif;
+      
+     }
+     .product lable{
+       margin-top: 10px;
+      font-family: "Sansita", sans-serif;
+     font-size: 20px;
+     }
+     .product a{
+       width: 90%;
+       height: 1rem;
+      margin-top: 18px;
+       background-color: transparent;
+       color:black;
+       border: 2px solid black;
+       padding: 6px 4px;
+       text-decoration:none;
+       font-size: 16px;
+       display: flex;
+       align-items: center;
+       justify-content:center;
+       cursor: pointer;
+       letter-spacing: 1.4px;
+       font-weight: bold;
+       transition: 0.3s ease-in;
+       font-family: "Roboto", sans-serif;
+     }
+  
+   .product a:hover {
+     transform: scale(10px);
+     background-color:black;
+     color: white;
+   }
+@media screen and (max-width: 600px) {
+   .navbar input{
+     width: 200px;
+     margin-right: 10px;
+    
+   }
+   .navbar .logo{
+         background-color: white;
+         margin-left: 10px;
+         width: 38%;
+         height:3.5rem;
+         padding: 2px;
+      }
+     .hero {
+  height: auto;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row-wrap; /* Changed from row to row-wrap */
+  align-items: center;
+  justify-content:center; /* Added to align items to the start */
+  flex-wrap: wrap; /* Added to wrap items */
+}
+
+ 
+.product{
+        width:339.9px;
+        height: 380px;
+        border: 1px solid grey;
+        
+       
+      }
+
+
+      .product img{
+        width:70%;
+        height:60%;
+        margin-top: 7px;
+       
+      }
+      .product .info{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+      }
+     .product h3{
+       margin-top: 20px;
+       width:auto;
+       font-size: 25px;
+       letter-spacing: 1px;
+       font-family: "Candal", sans-serif;
+      
+     }
+     .product lable{
+       margin-top: 10px;
+      font-family: "Sansita", sans-serif;
+     font-size: 20px;
+     }
+     .product a{
+       width: 90%;
+       height: 1rem;
+      margin-top: 18px;
+       background-color: transparent;
+       color:black;
+       border: 2px solid black;
+       padding: 6px 4px;
+       text-decoration:none;
+       font-size: 16px;
+       font-weight: bold;
+       display: flex;
+       align-items: center;
+       justify-content:center;
+       cursor: pointer;
+       letter-spacing: 1.4px;
+       transition: 0.3s ease-in-out;
+       font-family: "Roboto", sans-serif;
+     }
+  
+   .product a:hover {
+     transform: scale(10px);
+     background-color:black;
+     color: white;
+   }
+}

@@ -1,10 +1,10 @@
 @font-face{
   font-family:myfont;
-  src:url(/Font/banner.ttf);
+  src:url(/Fonts/banner.ttf);
 }
 @font-face{
   font-family:call;
-  src:url(/Font/call.ttf);
+  src:url(/Fonts/call.ttf);
 }
 @font-face{
   font-family:know;

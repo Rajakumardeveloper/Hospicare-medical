@@ -54,7 +54,7 @@
       }
       .product{
         width:325px;
-        height: 390px;
+        height: 398px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -147,7 +147,7 @@
  
 .product{
         width:325px;
-        height: 390px;
+        height: 398px;
         border: 1px solid grey;
         
        

@@ -130,12 +130,12 @@
     </div>
   
 </body>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
     const searchBar = document.querySelector('.navbar input');
     const products = document.querySelectorAll('.product');
 
-    searchBar.addEventListener('input', function () {
+    searchBar.addEventListener('input', function() {
       const searchText = searchBar.value.toLowerCase();
 
       products.forEach(product => {

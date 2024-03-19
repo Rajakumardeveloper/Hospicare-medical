@@ -41,12 +41,13 @@ nav h3 a{
 }
 .container {
   position: relative;
+  top:15px;
   max-width: 810px;
   margin: 0px auto;
   overflow: hidden;
   height: 270px;
   background-color: grey;
-
+  border-bottom: 2px 10px solid black ;
 }
 
 .carousel {
@@ -130,20 +131,19 @@ nav h3 a{
   
 }
 .info h3{
-  margin-top: auto 0px;
+  margin-top: 15px;
   margin-bottom: 5px;
   font-family: "Candal", sans-serif;
 }
 
 .images{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 
 }
 .images img {
-  width:40%;
-  height:240px;
+  width:50%;
+  height:auto;
   border:1px solid black;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -172,7 +172,7 @@ nav h3 a{
 .contact a,i{
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 @media only screen and (max-width: 600px) {
  nav{
@@ -190,10 +190,11 @@ nav h3 {
     max-width: 810px;
     overflow: hidden;
     height: auto;
+    background-color: white;
   }
 
   .container .slide img {
-    width: 100%;
+    width: 90%;
     display: block;
     height: 270px;
   }
@@ -201,6 +202,17 @@ nav h3 {
   width:100%;
   border:1px solid black;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:#393939bb ;
+  padding: 10px;
+  color:white;
+  cursor: pointer;
+  z-index: 1;
 }
 .contact{
   width: 100%;
@@ -231,15 +243,10 @@ nav h3 {
    <nav><a href="Product.html"><h3> &#10094; Go back</a></h3></nav>
   <div class="container">
     <div class="carousel">
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
-      <div class="slide"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt=""></div>
+      <div class="slide"> <img src="/asstes/patient plate cable.jpeg" alt=""></div>
+  <div class="slide"> <img src="/asstes/patient plate cable2.jpg" alt=""></div>
+  <div class="slide"> <img src="/asstes/patient plate cable3.jpg" alt=""></div>
+  <div class="slide"> <img src="/asstes/patient plate cable.jpeg" alt=""></div>
     </div>
     <div class="prev">&#10094;</div>
     <div class="next">&#10095;</div>
@@ -254,11 +261,10 @@ nav h3 {
   
   <h3>Products images</h3>
   <div class="images">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt="Product Image 1">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt="Product Image 1">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt="Product Image 1">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy9T2o4bm4BD835hBg9msbarcg_9nCJUtMUbfOOUn44sL5kTKYdyy19lH&s=10" alt="Product Image 1">
-
+    <img src="/asstes/patient plate cable.jpeg" alt="">
+<img src="/asstes/patient plate cable2.jpg" alt="">
+<img src="/asstes/patient plate cable3.jpg" alt="">
+<img src="/asstes/patient plate cable.jpeg" alt="">
     <!-- Add more images for the gallery here -->
   </div>
  
@@ -297,4 +303,5 @@ nav h3 {
     }
   </script>
 </body>
-</html>
+  </html>
+  

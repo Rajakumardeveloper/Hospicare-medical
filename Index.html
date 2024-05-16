@@ -28,5 +28,21 @@
        <button><a href="Product.html" target="_blank" >PRODUCTS ></a></button>
      </div>
    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script>
+    // Ensure DOM content is loaded before running the script
+    document.addEventListener("DOMContentLoaded", function() {
+      // Select the text element you want to animate
+      const textElement = document.querySelector('.banner h2');
+
+      // GSAP animation
+      gsap.from(textElement, {
+        opacity: 0, // start from opacity 0
+        y: 50, // move downward
+        duration: 1, // animation duration
+        ease: "power4.out" // easing function
+      });
+    });
+  </script>
   </body>
 </html>

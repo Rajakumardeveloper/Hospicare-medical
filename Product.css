@@ -51,7 +51,8 @@
 	padding: 0 10px;
 	outline: none;
 	text-shadow: 0 -1px 0 #000;
-	width: 330px;
+	max-width: 330px;
+	width:320px;
 }
 
 .navbar input {
@@ -187,7 +188,9 @@
          display:none;
        }
        .navbar input{
-         width: 300px;
+         width: 290px;
+	max-width: 300px;
+	       
          height: 45px;
          margin: 0px;
        }

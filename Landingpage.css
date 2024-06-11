@@ -75,7 +75,7 @@
 .banner{
   max-width:100%;
   height: 60vh;
-  margin-top: 10px;
+  margin-top: 15px;
   align-items: center;
   text-align: center;
 }
@@ -112,6 +112,7 @@
 }
 .banner .learn {
   margin-top: 10px;
+  cursor:pointer
   
 }
 .banner .learn a{

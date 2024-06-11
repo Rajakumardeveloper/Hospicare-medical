@@ -14,13 +14,17 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+   height: 100%;
+  width: 100%;
+ 
+}
 .main{
+  width: 100%;
   height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-image: url('/asstes/background.jpg');
+  background-position: center;
+background-size: cover;
 }
 
 
@@ -64,21 +68,11 @@
   font-family: call;
   text-decoration: none;
 }
-.hero{
-  height: 85vh;
-  width: 100%; 
-  background-image: url("/asstes/background.jpg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-}
 .banner{
   max-width:100%;
-  height: 60vh;
-  margin-top: 15px;
+  height: auto;
+  margin-top: 60pxpx;
   align-items: center;
   text-align: center;
 }
@@ -135,7 +129,9 @@
 
 @media only screen and (max-width: 600px) {
  .main .navbar{
-height:14vh;
+height:5rem;
+   margin-top: 0; /* Add this line */
+  padding: 0; /* Add this line */
  }
   .navbar .logo {
   width: 40%;
@@ -143,11 +139,6 @@ height:14vh;
   margin-left: 12px;
   background-color:rgba(200,230,202,255);
   padding: 4px;
-}
-.navbar .logo img{
-  width: 100%;
-  height: 100%;
-  
 }
   .navbar .call{
   width: 160px;
@@ -159,7 +150,7 @@ height:14vh;
   margin-right: 15px;
 }
    .banner {
-     margin-top: 120px;
+     margin-top: 104px;
    
    }
     .banner h1{

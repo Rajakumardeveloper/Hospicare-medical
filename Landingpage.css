@@ -25,20 +25,23 @@
 
 
 
-.main .navbar{
+.main .navbar {
   height: 5rem;
   width: 100%;
   background-color: #74D4D3;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
 }
+
 .navbar .logo {
   width: 20%;
   height: 3.8rem;
-  margin-left: 25px;
-  padding: 4px;
-  background-color:rgba(200,230,202,255);
+  margin: 0; /* Add this line */
+  padding: 0; /* Add this line */
+  background-color: rgba(200, 230, 202, 255);
 }
 .navbar .logo img{
   height: 100%;

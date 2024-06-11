@@ -188,9 +188,7 @@
          display:none;
        }
        .navbar input{
-         width: 290px;
-	max-width: 300px;
-	       
+	max-width: 290px;
          height: 45px;
          margin: 0px;
        }

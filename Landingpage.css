@@ -67,17 +67,10 @@ background-size: cover;
   font-family: call;
   text-decoration: none;
 }
-.hero{
-  width: auto;
-  height: auto;
-  display: flex;
-flex-direction: column;
-justify-content: center;
-}
 .banner{
   max-width:100%;
   height: auto;
-  margin-top: 100px;
+  margin-top: 125px;
   align-items: center;
   text-align: center;
 }

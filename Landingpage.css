@@ -10,26 +10,22 @@
   font-family:know;
   src:url(/Fonts/know.otf);
 }
-html,body{
-  height: 100vh;
-  max-width: 100%;
-  background-image: url("/asstes/background.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 *{
   margin: 0px;
   padding: 0px;
 }
-.hero{
+.main{
   height: 100vh;
-  width: 100%; 
-  
-  
-  
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.navbar{
+
+
+
+.main .navbar{
   height: 5rem;
   max-width: 100%;
   background-color: #74D4D3;
@@ -64,6 +60,17 @@ html,body{
   font-size: 18px;
   font-family: call;
   text-decoration: none;
+}
+.hero{
+  height: 85vh;
+  width: 100%; 
+  background-image: url("/asstes/background.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .banner{
   max-width:100%;
@@ -123,7 +130,10 @@ html,body{
 }
 
 @media only screen and (max-width: 600px) {
- .navbar .logo {
+ .main .navbar{
+height:14vh;
+ }
+  .navbar .logo {
   width: 40%;
   height: 3.5rem;
   margin-left: 12px;

@@ -7,7 +7,7 @@
       .main{
         max-width: 100vw;
        height:auto;
-       
+       position:relative;
       }
     
       .main .hero{
@@ -47,11 +47,12 @@
 	font-size: 13px;
 	font-weight: 400;
 	height: 48px;
-	float: right;
+	position: absolute;
+	right:30px;
 	padding: 0 10px;
 	outline: none;
 	text-shadow: 0 -1px 0 #000;
-	max-width: 330px;
+	max-width: 340px;
 	width:320px;
 }
 
@@ -92,8 +93,8 @@
  	height: 48px;
  	line-height: 40px;
  	padding: 0;
- 	margin-right: 20px;
- 	position: relative;
+ 	position: absolute;
+	right:30px;
  	text-shadow: 0 -1px 0 #000;
  	width: 85px;	
 }	
@@ -180,7 +181,7 @@
 .main .navbar{
   display: flex;
   bottom: 2px;
-         align-items: center;
+ align-items: center;
   justify-content: center;
   height: 4rem;
        }
@@ -188,7 +189,8 @@
          display:none;
        }
        .navbar input{
-	max-width: 290px;
+	max-width: 300px;
+	width:290px;
          height: 45px;
          margin: 0px;
        }

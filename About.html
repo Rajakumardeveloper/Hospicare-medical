@@ -44,7 +44,7 @@
       }
       .main{
         width: 100%;
-        height: 100vh;
+        height: auto;
       }
        .list-product{
         width: 80%;
@@ -83,23 +83,9 @@
          background-color:black;
          color: white;
        }
-  
-       .gallery{
-         width: 100%;
-         height: auto;
-       }
-       .gallery .image{
-         margin-left: 10px;
-       }
-       .gallery .image img{
-         width: 300px;
-         height: auto;
-       }
-       .gallery .image h3{
-         margin-bottom: 10px;
-         font-family: "Candal", sans-serif;
-         color: grey;
-       }
+ 
+	     
+     
        .information{
          width: 100%;
          height: auto;
@@ -118,6 +104,35 @@
          color: grey;
          font-size: 14px;
          margin-top: 5px;
+       }
+	    .gallery {
+width:100%;
+height:auto;
+
+}
+
+.image {
+  width:100%;
+height:auto;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+.image img {
+  margin: 10px;
+  width:300px;
+  height:190px;
+}
+
+       .gallery h3{
+         margin:5px 10px;
+         font-family: "Candal", sans-serif;
+         color: grey;
        }
 .contact{
   width:100%;
@@ -171,7 +186,7 @@ font-family: "Roboto", sans-serif;
       }
       .main{
         width: 100%;
-        height: 100%
+        height: auto;
       }
       .list-product{
         width: 93%;
@@ -206,6 +221,10 @@ font-family: "Roboto", sans-serif;
         font-family: "Roboto", sans-serif;
         transition: 0.3s ease-in;
       }
+	        .image img {
+  margin: 10px;
+  width:90%;
+  height:auto;
 .contact{
   width: 100%;
   height: 200px;
@@ -326,19 +345,24 @@ Nature of Business</h2>
 	  </div>
 	  
 	  <div class="gallery">
-	    <div class="image">
+	    
 	    <h3>Company interior</h3>
-	    <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/360238555/JC/SP/PL/37072688/1-250x250.jpg" alt="" >
+	 <div class="image">
+	    <img src="/asstes/interior1.jpg" alt="" >
+       <img src="/asstes/interior2.jpg" alt="" >
+        <img src="/asstes/interior3.jpg" alt="" >
 	    </div>
-	     <div class="image">
+	   
 	    <h3>Our Machines</h3>
-	    <img src="https://5.imimg.com/data5/SELLER/Default/2023/11/360239854/LT/ZA/AP/37072688/1-250x250.jpg" alt="">
+	      <div class="image">
+       <img src="/asstes/machine1.jpg" alt="" >
+       <img src="/asstes/machine2.jpg" alt="" >
+       <img src="/asstes/machine3.jpg" alt="" >
+        <img src="/asstes/machine4.jpg" alt="" >
+       <img src="/asstes/machine5.jpg" alt="" >
+        <img src="/asstes/machine6.jpg" alt="" >
 	    </div>
-	     <div class="image">
-	    <h3>Empolyes</h3>
-	    <img src="https://img.freepik.com/free-photo/medium-shot-business-team-work_23-2149271746.jpg?w=740&t=st=1710696104~exp=1710696704~hmac=d2f26a1c81f87622fa587a08fcbd2b215382ba38b3e35f55988b17fac69d6527" alt="" >
-	    </div>
-	  </div>
+	     
 	    <div class="contact">
   <h3>Contact us</h3>
   <lable><i class="fa-solid fa-phone"></i><a href="tel:+91 9582899387"> Call us: +91 9582899387</a></lable>
